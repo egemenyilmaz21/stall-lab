@@ -2,7 +2,7 @@
 
 Hücum açısı, kaldırma, sürükleme ve stall hızı arasındaki ilişkiyi gösteren etkileşimli bir aerodinamik simülasyon. Tek dosyadan oluşur (`index.html`), kurulum veya derleme gerektirmez.
 
-> Demo: **[BURAYA GITHUB PAGES ADRESİNİ YAZ]**
+https://egemenyilmaz21.github.io/stall-lab/
 
 ## Neler var?
 
@@ -34,19 +34,3 @@ Bu proje **eğitim amaçlı, sadeleştirilmiş** bir modeldir.
 - Hızlar gerçek hava hızı (TAS) olarak alınır. Yoğunluk, standart atmosferden (ISA) hesaplanır.
 - Stall sonrası CL ve CD eğrileri, ayrılmış akışı temsil eden basit üstel bir modelle verilir. Gerçek davranış kanat profiline, Reynolds sayısına ve kanat planformuna göre değişir.
 - Gösterilen sayılar belirli bir uçağın performans verisi değildir. Gerçek uçuş için uçağın uçuş el kitabı (POH/AFM) ve eğitmenin talimatı geçerlidir.
-
-## Çalıştırma
-
-`index.html` dosyasını tarayıcıda açmanız yeterlidir. Yazı tipleri Google Fonts'tan yüklenir, bağlantı yoksa sistem yazı tipleri kullanılır.
-
-## GitHub Pages ile yayınlama
-
-1. GitHub'da yeni bir **public** depo oluştur (örneğin `stall-lab`).
-2. `index.html` ve `README.md` dosyalarını depoya yükle (**Add file → Upload files**).
-3. Depoda **Settings → Pages** bölümüne git.
-4. **Source** olarak *Deploy from a branch* seç, branch olarak `main` ve klasör olarak `/ (root)` seç, **Save**'e bas.
-5. Birkaç dakika sonra sayfa `https://KULLANICI-ADIN.github.io/stall-lab/` adresinde yayında olur. Bu adresi yukarıdaki *Demo* satırına yaz.
-
-## Lisans
-
-Lisansı sen belirle. Açık kaynak paylaşmak istiyorsan GitHub'da **Add file → Create new file** ile `LICENSE` oluşturup şablon olarak MIT'yi seçebilirsin.
